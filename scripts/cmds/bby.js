@@ -159,7 +159,7 @@ module.exports.onChat = async ({
 }) => {
     try {
         const body = event.body ? event.body?.toLowerCase() : ""
-        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jan") || body.startsWith("babu") || body.startsWith("janu")) {
+        if (body.startsWith("5hqvi4us") || body.startsWith("5hqvi4us") || body.startsWith("bot") || body.startsWith("jan") || body.startsWith("milon") || body.startsWith("Milon")) {
             const arr = body.replace(/^\S+\s*/, "")
             const randomReplies = ["╭•┄┅════❁🌺❁════┅┄•╮\n\n✢━━━━━━━━━━━━━━━✢\n●───༆ কেউ সিয়াম বসের  বউকে দেখছো নি সিয়াম বস তার বউকে খুজে পাচ্ছে না 👻😩😑\n\n╰•┄┅════❁🌺❁════┅┄•╯\n✢━━━━━━━━━━━━━━━✢", "╭•┄┅════❁🌺❁════┅┄•╮\n\n✢━━━━━━━━━━━━━━━✢\n⸙//ফেসবুকে একটা বিন নাই এজন্য সিয়াম বস ফেসবুকে নাগিনদের ধরতে পারছে না 🐸🐷🐍\n\n\n╰•┄┅════❁🌺❁════┅┄•╯\n✢━━━━━━━━━━━━━━━✢, ╭•┄┅════❁🌺❁════┅┄•╮\n\n✢━━━━━━━━━━━━━━━✢\n⸙//সিয়াম বসের নেতৃত্বে আমি আজ ও সিঙ্গেল___🐸😑🐍🐷\n\n\n╰•┄┅════❁🌺❁════┅┄•╯\n\n✢━━━━━━━━━━━━━━━✢", "╭•┄┅════❁🌺❁════┅┄•╮\n\n✢━━━━━━━━━━━━━━━✢\n⸙//পৃথিবীতে সবাই প্রেম করে কিন্তু আমার বস সিয়াম ভাইকে সবাই সন্দেহে করে👀🥲🥴\n\n╰•┄┅════❁🌺❁════┅┄•╯\n✢━━━━━━━━━━━━━━━✢", "  ╭•┄┅════❁🌺❁════┅┄•╮\n\n✢━━━━━━━━━━━━━━━✢\n⸙//বেশি বট বট করলে নিফট নিবো কিন্তু 😡🐸😩\n\n╰•┄┅════❁🌺❁════┅┄•╯\n\n✢━━━━━━━━━━━━━━━✢"];
             if (!arr) {
