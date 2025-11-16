@@ -1,4 +1,4 @@
-<img src="https://files.catbox.moe/y7ikg6.mp4" alt="banner">
+<img src="https://i.imgur.com/S1ANQny.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿  𝗼͟𝗳   ¢ē໐⚡𝙋𝙍𝙄𝙉𝘾𝙀 ⚠️‍☠  </h1>
 
 
