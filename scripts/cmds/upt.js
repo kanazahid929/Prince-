@@ -50,7 +50,7 @@ module.exports = {
 ║ ‼️ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀     : ${totalCommands}
 ║ 📨𝗡𝗼𝗱𝗲.𝗷𝘀       : ${nodeVersion}
 ║ 🪄 𝗣𝗿𝗲𝗳𝗶𝘅        : ${prefix}
-║ 👑 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿     : 𝗩͟𝗜͟͠𝗥𝗨𝗦𝗦 𝗶͜͡𝘆𝗮𝗺📨💤
+║ 👑 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿     : 𝗩͟𝙋𝙍𝙄𝙉𝘾𝙀 ⚠️‍☠  💤
 ╚${line}╝`;
 
     message.reply(box);
