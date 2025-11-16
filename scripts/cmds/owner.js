@@ -16,12 +16,12 @@ module.exports = {
   onStart: async function ({ api, event }) {
     try {
       const ownerInfo = {
-        name: '𓆩⟡ 👾𝗔𝗖𝗦 𝗧𝗢𝗡𝗠𝗢𝗬 𝗕𝗥𝗢 ⟡𓆪⚠️',
+        name: '𝐒𝐢𝐥𝐞𝐧𝐭 𝐌𝐚𝐟𝐢𝐲𝐚___// 😘 😕 😈',
         gender: '𝐌𝐀𝐋𝐄👾🌪️',
-        nick: '𝗟𝗘͜͡𝗔𝗗𝗘𝗥 𝗩𝗔͜͡𝗜 ⚠️🏴‍☠'
+        nick: '𝙋𝙍𝙄𝙉𝘾𝙀 ⚠️‍☠  '
       };
 
-      const videoUrl = 'https://files.catbox.moe/iqajof.mp4';
+      const videoUrl = 'https://files.catbox.moe/y7ikg6.mp4';
       const tmpFolderPath = path.join(__dirname, 'tmp');
 
       if (!fs.existsSync(tmpFolderPath)) {
@@ -39,10 +39,10 @@ module.exports = {
 ├─⦿ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}
 ├─⦿ 𝗩𝗶͜͡𝗿𝘂𝘀 𝗔𝗹𝗲𝗿𝘁⚡📨
 ├─⦿ 𝗢𝗽𝗽͜͡𝘀𝘀𝘀 ....... 🎭
-├─⦿ 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝘄𝗼𝗿𝗱 : 𝗘𝗿𝗼𝗼𝗿 👑📨🌪️
-├─⦿ 𝗛𝗼𝗯𝗯𝘆 : 𝗛𝗮͜͡𝟯𝗸𝗶𝗻𝗴 🎭
+├─⦿ 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝘄𝗼𝗿𝗱 :𝗥𝗨𝗦𝗦𝗜𝗔𝗡 👑📌
+├─⦿ 𝗛𝗼𝗯𝗯𝘆 : ƒαтнєяѕ σƒƒ ησвιη 🎭
 ├─⦿ ⚡ 𝗪͟𝗛͟͠𝗢 𝗜͟𝗔͟͠𝗠 𝘠͟𝗼͟͠𝘶 𝗵͟𝗮͟͠𝘃𝗲 𝗻͟𝗼͟͠ 𝗶͟𝗱͟͠𝗲𝗮 📨🍷
-├─⦿ 🌪️𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿 𝗼͟𝗳 𝗻͟𝗼͟͠𝗯𝗶𝗻 ⚡
+├─⦿ 𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿  𝗼͟𝗳   ¢ē໐⚡
 ├─⦿ ⁷¹³𝗟𝗢𝗔𝗗𝗜𝗡𝗚...........................👾
 ├─⦿ 𝐆𝐞𝐧𝐝𝐞𝐫: ${ownerInfo.gender}
 ├─⦿ 𝐍𝐢𝐜𝐤 : ${ownerInfo.nick}
