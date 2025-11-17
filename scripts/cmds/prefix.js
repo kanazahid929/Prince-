@@ -30,7 +30,7 @@ module.exports = {
 
 • Global Prefix: %1
 • Group Prefix: %2  
-— CEO: SIYAM 🌪️🏴‍☠️
+— CEO: 𝐏𝐑𝐈𝐍𝐂𝐄 🌪️🏴‍☠️
 ●❯────────────────❮●`
         }
     },
