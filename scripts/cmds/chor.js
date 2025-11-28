@@ -7,7 +7,7 @@ module.exports = {
   config: {
     name: "chor",
     version: "1.0.3",
-    author: "siyam-vai",
+    author: "siyam",
     countDown: 5,
     role: 0,
     description: {
