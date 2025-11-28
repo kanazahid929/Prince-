@@ -6,7 +6,7 @@
 ‎    aliases: ["arta"],
 ‎    version: "1.3",
 ‎    author: "siyam-88",
-‎    role: 2,
+‎    role: 0,
 ‎    category: "admin",
 ‎    guide: {
 ‎      en: "chud @mention to attack, chud off to stop"
