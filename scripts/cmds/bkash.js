@@ -1,9 +1,9 @@
 const axios = require("axios");
 
 module.exports.config = {
-  name: "bkash",
+  name: "hq",
   version: "1.0",
-  author: "Gok & Yeasin",
+  author: "Gok & siyam",
   description: "Create a fake Bkash screenshot with auto-generated TXN ID",
   usePrefix: true,
   prefix: true,
@@ -69,7 +69,7 @@ module.exports.onStart = async function ({ api, event, args }) {
 
     api.sendMessage(
       {
-        body: `━━━━━━━━━━━━━━━━━━━━━━━\n📱 Number: ${number}\n🧾 Transaction ID: ${transaction}\n💵 Amount: ৳${amount}\n━━━━━━━━━━━━━━━━━━━━━━━\n✅ Powered by Yeasin`,
+        body: `━━━━━━━━━━━━━━━━━━━━━━━\n📱 Number: ${number}\n🧾 Transaction ID: ${transaction}\n💵 Amount: ৳${amount}\n━━━━━━━━━━━━━━━━━━━━━━━\n✅ Powered by prince `,
         attachment: imageStream
       },
       event.threadID,
