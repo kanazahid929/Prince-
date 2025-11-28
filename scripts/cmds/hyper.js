@@ -23,43 +23,43 @@ module.exports = {
     // ✅ CASE-1: "Bal","bal","chudi",
     if (text === "magi") {
       return sendMedia(message, [
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg"
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg"
       ]);
     }
 
     // ✅ CASE-2: "attack"
     if (text === "bal") {
       return sendMedia(message, [
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg"
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg"
       ]);
     }
 
     // ✅ CASE-3: "cyber"
     if (text === "Bal") {
       return sendMedia(message, [
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg"
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg"
       ]);
     }
 
     // ✅ CASE-4: "security"
     if (text === "xudi") {
       return sendMedia(message, [
-        "https://files.catbox.moe/runq5b.jpg",
-        "https://files.catbox.moe/runq5b.jpg"
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg"
       ]);
     }
 
     // ✅ CASE-5: "acs boss"
     if (text === "khanki") {
       return sendMedia(message, [
-        "https://files.catbox.moe/uyrytr.jpg",
-        "https://files.catbox.moe/uyrytr.jpg",
-        "https://files.catbox.moe/uyrytr.jpg"
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg",
+        "https://files.catbox.moe/560k76.jpg"
       ]);
     }
 
@@ -76,7 +76,7 @@ async function sendMedia(message, list) {
     fs.writeFileSync(filePath, Buffer.from(res.data));
 
     await message.reply({
-      body: "🎭_____________\n\n alert 🚨 এখানে গালাগালি করিস না মুখ মুcরে ভেঙে ফেলবো তাহলে বলদা ⚡👾👀🚩 \n\n গালাগালি করলে কিন্তু prince 🥰 বস ঠাপ দিবে সাবধান 👑 🚩 \n c: - 々𝗦𝗜𝗬͜͡⁴𝗠 𝗩𝗜𝗥𝗨𝗦🚩🏴‍☠️📨\n\n____________☠️⚡",
+      body: "🎭_____________\n\n alert 🚨 এখানে গালাগালি করিস না মুখ মুcরে ভেঙে ফেলবো তাহলে বলদা ⚡👾👀🚩 \n\n গালাগালি করলে কিন্তু prince 🥰 বস ঠাপ দিবে সাবধান 👑 🚩 \n c: - 𝙋𝙍𝙄𝙉𝘾𝙀 𝗩͟𝗜͟͠𝗥𝗨𝗦🚩🏴‍☠️📨\n\n____________☠️⚡",
       attachment: fs.createReadStream(filePath)
     });
 
