@@ -3,7 +3,7 @@
 ‎module.exports = {
 ‎  config: {
 ‎    name: "sorry ",
-‎    aliases: ["sorry"],
+‎    aliases: ["chud"],
 ‎    version: "1.3",
 ‎    author: "siyam-gggvir66us",
 ‎    role: 2,
