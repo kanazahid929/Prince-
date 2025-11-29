@@ -39,7 +39,7 @@ module.exports = {
                 api.changeNickname(" -𝙨𝙞𝙡𝙚𝙣𝙩 𝙢𝙖𝙛𝙞𝙮𝙖______//😒🥺😈", threadID, api.getCurrentUserID());
 
                 // ▶ Bot Add Video
-                const botAddVideo = "https://files.catbox.moe/csq53a.mp4";
+                const botAddVideo = "https://files.catbox.moe/eg0mcv.mp4";
                 const videoPath = path.join(__dirname, "bot_add.mp4");
 
                 if (!fs.existsSync(videoPath)) {
