@@ -1,5 +1,10 @@
  const os = require("os");
 
+const videos = [
+  "https://files.catbox.moe/m1h80i.jpg",
+  "https://files.catbox.moe/m1h80i.jpg"
+];
+
 function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostname, prefix, totalUsers }) {
   return `
 ╭────────────◊⚡🏴‍☠️
@@ -18,8 +23,8 @@ function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostnam
 
 ──────⦿ 𝗨𝘀𝗲͜͡𝗿 :☄️ ${totalUsers}💥💫
 
-𝐖𝐡𝐨 𝐢͜͡𝐚𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐧𝐨 𝐢𝐝𝐞𝐚 🚩
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬  𝙋𝙍𝙄𝙉𝘾𝙀🍾❕
+𝐖𝐡𝐨 𝐢͜͡𝗮𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐧𝐨 𝐢𝐝𝐞𝐚 🚩
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬 𝙋𝙍𝙄𝙉𝘾𝙀 🍾❕
 
 ╰────────────◊☄️👀❕
 `;
@@ -28,11 +33,11 @@ function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostnam
 module.exports = {
   config: {
     name: "up",
-    version: "2.4",
+    version: "2.5",
     author: "xnil6x",
     role: 0,
     category: "system",
-    guide: "upt"
+    guide: "up"
   },
 
   onStart: async function ({ message, threadsData }) {
@@ -64,8 +69,10 @@ async function sendUpt(message, threadsData) {
 
   const body = formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostname: os.hostname(), prefix, totalUsers });
 
+  const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+
   message.reply({
     body,
-    attachment: await global.utils.getStreamFromUrl("https://files.catbox.moe/9g9fsp.mp4")
+    attachment: await global.utils.getStreamFromUrl(randomVideo)
   });
 }
