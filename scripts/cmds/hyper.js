@@ -57,9 +57,9 @@ module.exports = {
     // ✅ CASE-5: "acs boss"
     if (text === "khanki") {
       return sendMedia(message, [
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg"
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg"
       ]);
     }
 
