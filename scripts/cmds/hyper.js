@@ -23,9 +23,9 @@ module.exports = {
     // ✅ CASE-1: "Bal","bal","chudi",
     if (text === "magi") {
       return sendMedia(message, [
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg"
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg"
       ]);
     }
 
@@ -33,24 +33,24 @@ module.exports = {
     if (text === "bal") {
       return sendMedia(message, [
         "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg"
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg"
       ]);
     }
 
     // ✅ CASE-3: "cyber"
     if (text === "Bal") {
       return sendMedia(message, [
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg"
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg"
       ]);
     }
 
     // ✅ CASE-4: "security"
     if (text === "xudi") {
       return sendMedia(message, [
-        "https://files.catbox.moe/560k76.jpg",
-        "https://files.catbox.moe/560k76.jpg"
+        "https://files.catbox.moe/m1h80i.jpg",
+        "https://files.catbox.moe/m1h80i.jpg"
       ]);
     }
 
